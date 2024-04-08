@@ -5,7 +5,7 @@ const app = express()
 app.get('/', (req, res) => {
     res.send('Hi This is Home Page hakeem edited!')
 })
-app.get('/product', (req, res) => {
+app.get('api/product', (req, res) => {
     res.send("product pahge")
 })
 
